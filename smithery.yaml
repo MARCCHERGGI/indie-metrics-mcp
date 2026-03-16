@@ -1,0 +1,19 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - stripeApiKey
+    properties:
+      stripeApiKey:
+        type: string
+        title: Stripe API Key
+        description: Your Stripe secret key (sk_live_... or sk_test_...)
+  commandFunction: |-
+    (config) => ({
+      command: 'node',
+      args: ['dist/index.js'],
+      env: {
+        STRIPE_API_KEY: config.stripeApiKey
+      }
+    })
