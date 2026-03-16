@@ -1,0 +1,51 @@
+{
+  "name": "indie-metrics-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Stripe business intelligence — query your revenue, customers, subscriptions, and forecasts conversationally via Claude or any AI assistant.",
+  "main": "dist/index.js",
+  "bin": {
+    "indie-metrics-mcp": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "stripe",
+    "analytics",
+    "revenue",
+    "mrr",
+    "saas",
+    "business-intelligence",
+    "ai-tools",
+    "claude"
+  ],
+  "author": "OpenClaw",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openclaw/indie-metrics-mcp"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "stripe": "^20.4.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
+}
