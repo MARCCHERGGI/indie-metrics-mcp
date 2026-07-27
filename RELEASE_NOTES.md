@@ -37,7 +37,7 @@ FounderMetricBench is a separate public synthetic evaluation maintained by Marco
 
 - Evaluation: https://marco-is-my-friend.marcohergee813.chatgpt.site/arena
 - Dataset: https://marco-is-my-friend.marcohergee813.chatgpt.site/founder-metric-bench.json
-- Synthetic MCP endpoint: https://marco-is-my-friend.marcohergee813.chatgpt.site/mcp
+- Synthetic MCP endpoint: https://marco-is-my-friend.marcohergee813.chatgpt.site/api/mcp
 - Known gaps: https://marco-is-my-friend.marcohergee813.chatgpt.site/research/stripe-mcp-benchmark
 
 ### Independence notice
