@@ -1,7 +1,7 @@
 {
   "name": "indie-metrics-mcp",
   "version": "1.0.0",
-  "description": "MCP server for Stripe business intelligence — query your revenue, customers, subscriptions, and forecasts conversationally via Claude or any AI assistant.",
+  "description": "MCP server for Stripe business intelligence: query your revenue, customers, subscriptions, and forecasts conversationally via Claude or any AI assistant.",
   "main": "dist/index.js",
   "bin": {
     "indie-metrics-mcp": "dist/index.js"
@@ -29,8 +29,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openclaw/indie-metrics-mcp"
+    "url": "git+https://github.com/MARCCHERGGI/indie-metrics-mcp.git"
   },
+  "bugs": {
+    "url": "https://github.com/MARCCHERGGI/indie-metrics-mcp/issues"
+  },
+  "homepage": "https://github.com/MARCCHERGGI/indie-metrics-mcp#readme",
   "engines": {
     "node": ">=18"
   },
