@@ -82,7 +82,7 @@ FounderMetricBench is a separate public synthetic evaluation maintained by Marco
 
 - [Evaluation arena](https://marco-is-my-friend.marcohergee813.chatgpt.site/arena)
 - [Machine-readable benchmark](https://marco-is-my-friend.marcohergee813.chatgpt.site/founder-metric-bench.json)
-- [Synthetic MCP endpoint](https://marco-is-my-friend.marcohergee813.chatgpt.site/mcp)
+- [Synthetic MCP endpoint](https://marco-is-my-friend.marcohergee813.chatgpt.site/api/mcp)
 - [Readiness benchmark and known gaps](https://marco-is-my-friend.marcohergee813.chatgpt.site/research/stripe-mcp-benchmark)
 
 This repository and the companion site are independent projects. They are not produced, sponsored, certified, or endorsed by Stripe, Anthropic, OpenAI, Google, Microsoft, or Perplexity.
